@@ -125,3 +125,14 @@ C:\Users\Nycck\Downloads\backend\obj\Debug\net8.0\refint\GameCatalog.dll
 C:\Users\Nycck\Downloads\backend\obj\Debug\net8.0\GameCatalog.pdb
 C:\Users\Nycck\Downloads\backend\obj\Debug\net8.0\GameCatalog.genruntimeconfig.cache
 C:\Users\Nycck\Downloads\backend\obj\Debug\net8.0\ref\GameCatalog.dll
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\GameCatalog.csproj.AssemblyReference.cache
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\GameCatalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\GameCatalog.AssemblyInfoInputs.cache
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\GameCatalog.AssemblyInfo.cs
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\GameCatalog.csproj.CoreCompileInputs.cache
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\GameCatalog.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\GameCatalog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\GameCatalog.sourcelink.json
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\GameCatalog.dll
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\refint\GameCatalog.dll
+C:\Users\irene\Downloads\BackEnd---Csharp\obj\Debug\net8.0\GameCatalog.pdb
