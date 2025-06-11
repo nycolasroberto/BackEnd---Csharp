@@ -20,10 +20,22 @@ builder.Services.AddControllers()
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new() { 
-        Title = "Game Catalog API", 
+    c.SwaggerDoc("v1", new()
+    {
+        Title = "Game Catalog API",
         Version = "v1",
         Description = "API para gerenciamento de catálogo de jogos"
+    });
+});
+
+// Configuração de CORS para o front-end
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000") // URL do frontend
+              .AllowAnyHeader()
+              .AllowAnyMethod();
     });
 });
 
@@ -38,11 +50,12 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Game Catalog API V1");
         c.RoutePrefix = string.Empty; // Swagger na raiz
     });
-}   
+}
 
 //para usar http, é preciso configurar o LaunchSettings.json
 // app.UseHttpsRedirection(); 
 
+app.UseCors("AllowFrontend"); // Ativa o CORS
 app.UseAuthorization();
 app.MapControllers();
 
